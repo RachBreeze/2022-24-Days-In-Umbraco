@@ -2,7 +2,9 @@
 {
     public class Category
     {
-        public int Id { get; set; } 
+        /// <example>1</example>
+        public int Id { get; set; }
+        /// <example>dog</example>
         public string Name { get;set; }
 
 

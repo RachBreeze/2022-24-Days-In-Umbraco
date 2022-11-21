@@ -15,11 +15,11 @@ namespace PetAPI.Controllers
         /// <summary>
         /// Update an existing  pet by id
         /// </summary>
+        /// <param name="request">Update an existing pet in the store</param>
         [HttpPut]
         public IActionResult Update([FromBody]Pet request)
         {
             return null;
         }
-
     }
 }
