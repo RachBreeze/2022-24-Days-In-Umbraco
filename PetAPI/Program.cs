@@ -40,6 +40,7 @@ namespace PetAPI
                                                     }
                                                 });
                                                 c.IncludeXmlComments(xmlPath, includeControllerXmlComments: true);
+                                                c.UseInlineDefinitionsForEnums();
                                             })
                             .AddSwaggerGenNewtonsoftSupport();
 

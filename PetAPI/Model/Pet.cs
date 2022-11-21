@@ -19,6 +19,7 @@ namespace PetApi.Model
 
         [EnumDataType(typeof(Status))]
         [JsonConverter(typeof(StringEnumConverter))]
+        [DefaultValue(Status.Pending)]
         public Status Status { get; set; }
     }
 }
