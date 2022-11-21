@@ -10,9 +10,14 @@ namespace PetApi.Model
     {
         /// <example>10</example>
         public int Id { get; set; }
+
+
         /// <example>doggie</example>
+        [Required]
         public string Name { get; set; }    
         public Category Category { get; set; }
+
+        [Required]
         public string[] PhotoUrls { get; set; }
 
         public ICollection<Tag> Tags { get; set; }

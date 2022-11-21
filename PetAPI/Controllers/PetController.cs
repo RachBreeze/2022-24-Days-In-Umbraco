@@ -17,7 +17,7 @@ namespace PetAPI.Controllers
         /// </summary>
         /// <param name="request">Update an existing pet in the store</param>
         [HttpPut]
-        public IActionResult Update([FromBody]Pet request)
+        public IActionResult Update([Required][FromBody]Pet request)
         {
             return null;
         }
