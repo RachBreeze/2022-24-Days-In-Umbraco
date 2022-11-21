@@ -1,5 +1,8 @@
-﻿using PetAPI.PetStatus;
+﻿using Newtonsoft.Json.Converters;
+using PetAPI.PetStatus;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace PetApi.Model
 {
@@ -13,6 +16,9 @@ namespace PetApi.Model
         public string[] PhotoUrls { get; set; }
 
         public ICollection<Tag> Tags { get; set; }
+
+        [EnumDataType(typeof(Status))]
+        [JsonConverter(typeof(StringEnumConverter))]
         public Status Status { get; set; }
     }
 }
