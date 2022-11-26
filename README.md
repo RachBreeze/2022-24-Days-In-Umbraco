@@ -10,7 +10,7 @@ It atempts to replicate the "Update an Existing Pet" action found at https://edi
 ## Code
 The code samples for the article can be found https://github.com/RachBreeze/2022-24-Days-In-Umbraco/tree/main/PetAPI
 
-The article also discusses setting <code><GenerateDocumentationFile>true</GenerateDocumentationFile></code> in the <code>.csproj</code> file. The output from doing this is found at https://github.com/RachBreeze/2022-24-Days-In-Umbraco/blob/main/PetAPI.xml
+The article also discusses setting <code>`<GenerateDocumentationFile>true</GenerateDocumentationFile>`</code> in the <code>.csproj</code> file. The output from doing this is found at https://github.com/RachBreeze/2022-24-Days-In-Umbraco/blob/main/PetAPI.xml
 
 
 ## Maintenance and Warranties
