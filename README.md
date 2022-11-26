@@ -1,4 +1,4 @@
-# Configuration files: Testing,Transforming and Deploying
+# Creating better API documentation with .NET Core
 Code in this repository supports an article I am writing for 24 days in Umbraco that discusses how to document an API using Attributes and Swagger.
 
 It atempts to replicate the "Update an Existing Pet" action found at https://editor.swagger.io/. Whilst demonstrating:
