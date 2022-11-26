@@ -19,6 +19,9 @@ namespace PetAPI.Controllers
         /// Update an existing  pet by id
         /// </summary>
         /// <param name="request">Update an existing pet in the store</param>
+        /// <response code="200">Successful operation</response>
+        /// <response code="404">Pet not found</response>
+        /// <response code="400">Invalid Id Supplied</response>
         [HttpPut]
         [Consumes("application/json")]
         [Produces("application/json")]
