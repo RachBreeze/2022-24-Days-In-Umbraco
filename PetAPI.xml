@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PetAPI</name>
+    </assembly>
+    <members>
+        <member name="T:PetAPI.Controllers.PetController">
+            <summary>
+            Everything about your Pets
+            </summary>
+        </member>
+        <member name="M:PetAPI.Controllers.PetController.Update(PetApi.Model.Pet)">
+            <summary>
+            Update an existing  pet by id
+            </summary>
+            <param name="request">Update an existing pet in the store</param>
+        </member>
+        <member name="T:PetAPI.PetStatus.Status">
+            <summary>
+            Status of Pet in Store
+            </summary>
+        </member>
+        <member name="F:PetAPI.PetStatus.Status.Available">
+            <summary>
+            Available
+            </summary>
+        </member>
+        <member name="F:PetAPI.PetStatus.Status.Pending">
+            <summary>
+            Pending
+            </summary>
+        </member>
+        <member name="F:PetAPI.PetStatus.Status.Sold">
+            <summary>
+            Sold
+            </summary>
+        </member>
+        <member name="P:PetApi.Model.Category.Id">
+            <example>1</example>
+        </member>
+        <member name="P:PetApi.Model.Category.Name">
+            <example>dog</example>
+        </member>
+        <member name="P:PetApi.Model.Pet.Id">
+            <example>10</example>
+        </member>
+        <member name="P:PetApi.Model.Pet.Name">
+            <example>doggie</example>
+        </member>
+    </members>
+</doc>
